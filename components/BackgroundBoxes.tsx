@@ -8,7 +8,7 @@ import ButtonWithBorder from "@/components/ButtonWithBorder";
 
 export function BackgroundBoxes() {
     return (
-        <div className="h-96 relative w-full overflow-hidden bg-slate-900 flex items-center justify-center rounded-lg mt-12 gap-20">
+        <div className="h-96 relative w-full overflow-hidden bg-slate-900 flex items-center justify-center rounded-lg mt-32 gap-20">
             <Boxes/>
             <div className={"w-full h-full flex items-center justify-center"}>
                 <div className={"w-3/5 flex flex-col justify-start z-10 gap-12"}>

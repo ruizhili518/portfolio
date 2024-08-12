@@ -14,7 +14,7 @@ const ProjectCard = () => {
         title: "Backstage System",
         desc: "React.js framework, using ReChart to achieve data visualization. Manage store information, inventory, and operations all-in-one.",
         git: "https://github.com/ruizhili518/BMS",
-        link: " "
+        link: "https://bms-e54qjf8ux-ruizhili518s-projects.vercel.app/login"
     }
     const mac= {
         title: "Mobile Order System",
@@ -25,7 +25,7 @@ const ProjectCard = () => {
 
     return (
         <div
-            className="relative w-full mt-12 flex flex-col items-center">
+            className="relative w-full mt-16 flex flex-col items-center">
             <TypewriterEffectSmooth words={words}/>
             <div className="flex w-full items-center gap-8 justify-center">
                 <div className="w-1/3">

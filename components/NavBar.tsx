@@ -9,11 +9,10 @@ import {
     navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 import Image from "next/image";
-import {cn} from "@/lib/utils";
 
 const NavBar = () => {
     return (
-        <NavigationMenu>
+        <NavigationMenu className={"h-20"}>
             <NavigationMenuList>
                 <Image src="/logo.png" width={60} height={60} alt="logo" className={"mr-16"} />
                 <div className={"flex"}>
@@ -27,14 +26,14 @@ const NavBar = () => {
                 <NavigationMenuItem>
                     <Link href="/" legacyBehavior passHref>
                         <NavigationMenuLink className={`${navigationMenuTriggerStyle()} text-xl`}>
-                            Education
+                            Project
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                     <Link href="/" legacyBehavior passHref>
                         <NavigationMenuLink className={`${navigationMenuTriggerStyle()} text-xl`}>
-                            Project
+                            Education
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
@@ -45,6 +44,13 @@ const NavBar = () => {
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
+                    <NavigationMenuItem>
+                        <Link href="/" legacyBehavior passHref>
+                            <NavigationMenuLink className={`${navigationMenuTriggerStyle()} text-xl`}>
+                                Experience
+                            </NavigationMenuLink>
+                        </Link>
+                    </NavigationMenuItem>
                 <NavigationMenuItem className={"justify-self-end"}>
                     <Link href="/" legacyBehavior passHref>
                         <NavigationMenuLink className={`${navigationMenuTriggerStyle()} text-xl`}>
