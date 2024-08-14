@@ -11,7 +11,7 @@ const SkillCard = () => {
         },{
             id:2,
             name: "React.js",
-            image:"/react.png"
+            image:"/react-logo.png"
         },{
             id:3,
             name: "TypeScript",
@@ -71,7 +71,7 @@ const SkillCard = () => {
         <div
             className="relative w-full mt-12 flex flex-col items-center">
             <TypewriterEffectSmooth words={words}/>
-            <p className="text-neutral-500 text-sm w-1/2 my-4 dark:text-neutral-300">
+            <p className="text-neutral-500 text-sm w-1/2 mb-4 mt-8 dark:text-neutral-300">
                 Proficiency in programming languages such as JavaScript(TypeScript),Python and Java. Familiar with front-end frameworks such as Next.js and React.js, combined with various tools to build and maintain front-end systems. Understand the working mechanism of backend API and related development tools.
             </p>
             <div className="flex flex-col mt-16 gap-16 justify-center items-center">

@@ -16,7 +16,7 @@ export function BackgroundBoxes() {
                     <ButtonWithBorder text={"Download Resume"}/>
                 </div>
                 <div className={"w-60 h-60 rounded-full flex justify-center items-center z-10"}>
-                    <Image src="/avatar.png" alt="logo" width={800} height={800} className={"rounded-full"}/>
+                    <Image src="/Pic.jpg" alt="logo" width={800} height={800} className={"rounded-full"}/>
                 </div>
             </div>
         </div>

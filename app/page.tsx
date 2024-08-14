@@ -3,6 +3,9 @@ import {BackgroundBoxes} from "@/components/BackgroundBoxes";
 import EducationCard from "@/components/EducationCard";
 import ProjectCard from "@/components/ProjectCard";
 import SkillCard from "@/components/SkillCard";
+import {Exo} from "next/dist/compiled/@next/font/dist/google";
+import ExperienceCard from "@/components/ExperienceCard";
+import EmailCard from "@/components/EmailCard";
 
 export default function Home() {
   return (
@@ -15,6 +18,8 @@ export default function Home() {
               <ProjectCard/>
               <EducationCard/>
               <SkillCard/>
+              <ExperienceCard/>
+              <EmailCard/>
           </div>
       </div>
   );
