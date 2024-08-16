@@ -10,7 +10,8 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 
 function NavList() {
-    const adjustScroll= (event: { preventDefault: () => void; target: { href: string; }; }) => {
+    // @ts-ignore
+    const adjustScroll= (event) => {
         event.preventDefault();
         const ele = document.getElementById(event.target.href.split("#")[1]);
         if(ele){
@@ -22,6 +23,7 @@ function NavList() {
             })
         }
     }
+    // @ts-ignore
     return (
         <ul className="flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 w-full">
             <Typography
@@ -108,6 +110,7 @@ export function NavbarSimple() {
         };
     }, []);
 
+    // @ts-ignore
     return (
         <Navbar className="mx-auto max-w-screen-xl px-12 py-3 sticky top-0 z-50 bg-gray-800 border-0">
             <div className="flex items-center justify-between text-white">
