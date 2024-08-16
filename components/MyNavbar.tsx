@@ -1,5 +1,5 @@
-"use client";
 //@ts-nocheck
+"use client";
 import React from "react";
 import {
     Navbar,
@@ -24,7 +24,6 @@ function NavList() {
             })
         }
     }
-    // @ts-ignore
     return (
         <ul className="flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 w-full">
             <Typography
