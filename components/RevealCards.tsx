@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const ba =
     <div className="flex flex-col gap-4">
-        <h2 className="text-2xl">Bachelor's Degree</h2>
+        <h2 className="text-2xl">Bachelor Degree</h2>
         <p>Tianjin University, China</p>
         <p>Bachelor of Engineering</p>
         <p className="text-base">Course: Advanced Mathematics, Linear Algebra, Fortran, Visual Basic ... </p>
@@ -16,7 +16,7 @@ const ba =
 
 const ms =
     <div className="flex flex-col gap-4">
-        <h2 className="text-2xl">Master's Degree</h2>
+        <h2 className="text-2xl">Master Degree</h2>
         <p className="text-base">University of British Columbia, Vancouver</p>
         <p>Master of Engineering Leadership</p>
         <p className="text-base">Course: Analytics & Interpretation for Applied Sciences, Business Acumen for Technical Leaders... </p>
