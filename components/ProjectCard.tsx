@@ -25,7 +25,9 @@ const ProjectCard = () => {
 
     return (
         <div
-            className="relative w-full mt-16 flex flex-col items-center">
+            className="relative w-full mt-16 flex flex-col items-center"
+            id={"project"}
+        >
             <TypewriterEffectSmooth words={words}/>
             <div className="flex w-full items-center gap-8 justify-center">
                 <div className="w-1/3">

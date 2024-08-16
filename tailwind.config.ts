@@ -1,6 +1,8 @@
 import type { Config } from "tailwindcss"
 const defaultTheme = require("tailwindcss/defaultTheme");
 const colors = require("tailwindcss/colors");
+const flowbite = require("flowbite-react/tailwind");
+const withMT = require("@material-tailwind/react/utils/withMT");
 
 const {
   default: flattenColorPalette,
@@ -17,14 +19,15 @@ function addVariablesForColors({ addBase, theme }: any) {
   });
 }
 
-const config = {
+const config = withMT({
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
-	],
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+    flowbite.content()
+  ],
   prefix: "",
   theme: {
     container: {
@@ -100,9 +103,8 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate"),
-    addVariablesForColors],
-} satisfies Config
+  plugins: [addVariablesForColors , flowbite.plugin()],
+}) satisfies Config
 
 export default config
 

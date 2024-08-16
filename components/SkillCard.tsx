@@ -69,7 +69,9 @@ const SkillCard = () => {
     const words = [{text: "Skill"}]
     return (
         <div
-            className="relative w-full mt-12 flex flex-col items-center">
+            className="relative w-full mt-12 flex flex-col items-center"
+            id="skill"
+        >
             <TypewriterEffectSmooth words={words}/>
             <p className="text-neutral-500 text-sm w-1/2 mb-4 mt-8 dark:text-neutral-300">
                 Proficiency in programming languages such as JavaScript(TypeScript),Python and Java. Familiar with front-end frameworks such as Next.js and React.js, combined with various tools to build and maintain front-end systems. Understand the working mechanism of backend API and related development tools.

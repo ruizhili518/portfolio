@@ -6,7 +6,9 @@ const EmailCard = () => {
     const words = [{text: "Contact Me"}]
     return (
         <div
-            className="relative w-full mt-12 flex flex-col items-center">
+            className="relative w-full mt-12 flex flex-col items-center"
+            id="contact"
+        >
             <TypewriterEffectSmooth words={words}/>
             <EmailForm/>
         </div>

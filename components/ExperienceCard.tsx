@@ -32,7 +32,9 @@ const words = [{text: "Experience"}]
 const ExperienceCard = () => {
     return (
         <div
-            className="relative w-full mt-16 flex flex-col items-center">
+            className="relative w-full mt-16 flex flex-col items-center"
+            id="experience"
+        >
             <TypewriterEffectSmooth words={words}/>
             <p className="text-neutral-500 text-sm w-1/2 mb-4 mt-8 dark:text-neutral-300">
                 I have 5 years of professional experience as a project engineer and manager in China, including 2 years of experience in the AI industry. I am dedicated to developing enterprise-grade, high-performance applications by writing maintainable and high-quality code.
