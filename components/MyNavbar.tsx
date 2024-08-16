@@ -10,9 +10,8 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 
 
-
+// @ts-ignore
 function NavList() {
-
     const adjustScroll= (event) => {
         event.preventDefault();
         const ele = document.getElementById(event.target.href.split("#")[1]);
