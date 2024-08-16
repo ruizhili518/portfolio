@@ -102,7 +102,7 @@ export const InfiniteMovingCards = ({
                             <span className=" relative z-20 text-sm leading-[1.6] text-gray-100 font-normal">
                                  {item.quote.map((ele) => {
                                      return (
-                                         <div>
+                                         <div key={item.name}>
                                              {ele}
                                          </div>
                                      )

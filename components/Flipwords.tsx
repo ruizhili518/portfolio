@@ -10,11 +10,9 @@ export function FlipWordsDemo() {
                 Welcome!
             </div>
             <div className="text-3xl font-normal text-neutral-600 dark:text-neutral-400">
-                I'm Edward Li, a software engineer<br/>
+                I am Edward Li, a software engineer<br/>
                 with<FlipWords words={words}/>
             </div>
         </div>
     );
 }
-
-//word={["passionate","innovative","detail-oriented","curious"]} sentence1={"Hi, I'm Edward Li, a "} sentence2={"software engineer."}

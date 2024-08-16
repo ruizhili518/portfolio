@@ -36,13 +36,13 @@ export function RevealCards() {
     return (
         <>
             <div className="mt-16 mb-8 flex flex-col lg:flex-row items-center justify-center bg-white dark:bg-transparent w-full gap-4 mx-auto px-8">
-                <Card outText="Bachelor's Degree" inText={ba} logo={"/TJU_logo.png"} size={120}>
+                <Card outText="Bachelor Degree" inText={ba} logo={"/TJU_logo.png"} size={120}>
                     <CanvasRevealEffect
                         animationSpeed={3}
                         containerClassName="bg-emerald-900"
                     />
                 </Card>
-                <Card outText="Master's Degree" inText={ms} logo={"/ubc-logo.png"} size={160}>
+                <Card outText="Master Degree" inText={ms} logo={"/ubc-logo.png"} size={160}>
                     <CanvasRevealEffect
                         animationSpeed={3}
                         containerClassName="bg-pink-900"
