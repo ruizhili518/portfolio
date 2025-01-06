@@ -22,6 +22,12 @@ const ProjectCard = () => {
         git: "https://github.com/ruizhili518/Mc_Order",
         link: "https://mymcorder.netlify.app/"
     }
+    const eco = {
+        title: "E-commerce Platform",
+        desc: "Next.js framework, leveraging Node.js for backend APIs, Stripe for payment, and many features you can imagine for a e-com company.",
+        git: "https://github.com/ruizhili518/coffee-shop",
+        link: "https://eunnikoo.vercel.app/"
+    }
 
     return (
         <div
@@ -31,13 +37,13 @@ const ProjectCard = () => {
             <TypewriterEffectSmooth words={words}/>
             <div className="flex w-full items-center gap-8 justify-center">
                 <div className="w-1/3">
+                    <ThreeDCardDemo img={"/eco.jpg"} pro={eco}/>
+                </div>
+                <div className="w-1/3">
                     <ThreeDCardDemo img={"/bank.png"} pro={bank}/>
                 </div>
                 <div className="w-1/3">
                     <ThreeDCardDemo img={"/bms.png"} pro={bms}/>
-                </div>
-                <div className="w-1/3">
-                    <ThreeDCardDemo img={"/mac.jpg"} pro={mac}/>
                 </div>
             </div>
         </div>
