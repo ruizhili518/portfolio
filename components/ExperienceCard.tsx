@@ -6,24 +6,24 @@ import {TypewriterEffectSmooth} from "@/components/ui/typewrter-effect";
 const testimonials = [
     {
         quote:
-            ['● Established and optimized the R&D process for the autonomous driving team.',
-             '● Managed the development of more than 10 new versions of autonomous driving software.'],
-        name: "AI Project Manager, Meituan, China",
+            ['● Led the development of an autonomous driving test case platform, which enhanced testing efficiency by 35% for the autonomous driving R&D team.',
+             '● Developed the platform\'s front end and integrating the testing team\'s APIs to enable R&D teams to independently select test cases'],
+        name: "Software Manager, Meituan Autonomous Driving Team, China",
         title: "Dec, 2022 - Jul, 2023",
     },
     {
         quote:
-            ['● Managed project delivery of the B2B AI platform product.',
-                '● Created and delivered solutions for clients based on their needs leveraging the AI platform.'],
-        name: "AI Project Manager, 4Paradigm, China",
+            ['● Developed a low-code AI model platform based on AIOS (operating system), leveraging React, React Flow, Redux and Tailwind.',
+                '● Enabling users with minimal coding experience to build AI models through intuitive drag-and-drop AI operators.'],
+        name: "Software Manager, 4Paradigm, China",
         title: "Jan, 2022 - Dec, 2022",
     },
     {
         quote:
-            ['● Provided professional solutions for the design of dock construction projects.',
-                '● Explored the application of new technologies in construction project.'],
-        name: "Project Engineer & Manager, Tianjin Lingang Port Group, China",
-        title: "Jul, 2017 - Jan, 2022",
+            ['● Developed and maintained a full-stack maritime crime detection platform.',
+                '● Developed MVP for the company, leveraging React.js, FastAPI and Mongodb.'],
+        name: "Senior Fullstack Engineer, Clause Technology, Vancouver",
+        title: "Mar, 2025 - now",
     }
 ];
 
